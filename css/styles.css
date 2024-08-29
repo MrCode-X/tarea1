@@ -1,0 +1,41 @@
+*
+/* Estilo para el body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ce2525;
+}
+
+/* Estilo para el contenedor*/
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para la caja */
+.caja {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(32, 204, 75, 0.8);
+    border: 6px solid #eeff06;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Estilo para el parrafo dentro de la caja*/
+.caja p {
+    margin: 0;
+    font-size: 35px;
+}
